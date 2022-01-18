@@ -2,9 +2,9 @@
 pipeline {
     agent any
     stages {
-        stage('SCM checkout') {
+        stage('Code Quality') {
             steps {
-                sh 'clone repo'
+                sh 'echo checking code quality'
             }
         }
         stage('Unit Tests') {
