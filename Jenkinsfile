@@ -6,6 +6,7 @@ pipeline {
             git credentialsId: 'git_creds', url: 'https://github.com/shazib96/Hello_project.git'
             steps {
                 sh 'clone repo'
+                
             }
         }
         stage('Unit Tests') {
