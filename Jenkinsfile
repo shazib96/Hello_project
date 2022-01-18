@@ -13,7 +13,7 @@ pipeline {
                 sh 'echo Testing the Applications'
             }
         }
-        stage('Build') {
+        stage('Build ') {
             steps {
                 sh 'echo Creating application Package'
             }
